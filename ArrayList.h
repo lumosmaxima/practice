@@ -6,8 +6,8 @@
 
 #define LIST_LEN 100
 
-#include "Point.h"
-typedef Point* LData;
+#include "NameCard.h"
+typedef NameCard* LData;       //리스트에 담는 정보에 따라 변환
 
 typedef struct __ArrayList
 {
